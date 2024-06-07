@@ -40,7 +40,7 @@ if ! grep -q "^$user:" /etc/passwd; then
 		fi
 	
 	#create cronjob for automatic system update	
-	(crontab -u testuser -l 2> /dev/null; echo "$CRON_JOB") | crontab -u $user -
+	echo "$CRON_JOB" | crontab -u $user -
 		if [ $? -eq 0 ];then
 			echo "cronjob for '$user' was created"
 		else
