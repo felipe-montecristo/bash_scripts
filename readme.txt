@@ -16,11 +16,11 @@ This repository is designed to provide a variety of Bash scripts that can help w
 ### 1. create_testuser_and_setup.sh
 
 This script:
-- Creates a user called `testuser` if it does not already exist.
-- Sets a password for `testuser`.
-- Adds `testuser` to the sudo group.
-- Adds an alias for system updates to `testuser`'s `.bashrc`.
-- Sets up a cron job for `testuser` to run system updates weekly.
-- Installs `htop` if it is not already installed.
+- Creates a user called 'testuser'.
+- Sets a password for 'testuser'.
+- Adds 'testuser' to the sudo group.
+- Adds an alias for system updates to 'testusers' '.bashrc'.
+- Sets up a cron job for 'testuser' to run system updates weekly.
+- Installs 'htop' if it is not already installed.
 
 ### END
