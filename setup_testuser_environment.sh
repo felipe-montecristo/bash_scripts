@@ -3,7 +3,7 @@
 CRON_JOB="0 3 * * 7 update_sys"
 user="testuser"
 
-#start the script only as ROOT
+#start the script only if ROOT
 if [ "$(id -u)" -ne 0 ];then
 	echo "this script has to be run as ROOT"
 	exit 1
