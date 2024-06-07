@@ -24,7 +24,7 @@ if ! grep -q "^$user:" /etc/passwd; then
 	#add testuser to sudo group	
 	usermod -aG sudo $user
 		if [ $? -eq 0 ];then
-			echo "User '$user' was added to sudo group"
+			echo "user '$user' was added to sudo group"
 		else
 			echo "an error occurred while adding '$user' to sudo group"
 		fi
