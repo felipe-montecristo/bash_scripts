@@ -26,9 +26,8 @@ This script:
 ### 2. backup.sh
 
 This script:
-- Checks if exactly two arguments are provided.
+- Checks if exactly two arguments are provided (backup directory + target directory)
 - Validates that rsync is installed.
-- Captures the current date in the format DD-MM-YYYY.
 - Creates necessary backup directories.
 - Sets rsync options for archiving, verbose output, creating backups, specifying a backup directory, deleting files, and performing a dry run.
 - Executes the rsync command with these options to synchronize files.
