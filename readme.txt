@@ -23,4 +23,15 @@ This script:
 - Sets up a cron job for 'testuser' to run system updates weekly.
 - Installs 'htop' if it is not already installed.
 
+### 2. backup.sh
+
+This script:
+- Checks if exactly two arguments are provided.
+- Validates that rsync is installed.
+- Captures the current date in the format DD-MM-YYYY.
+- Creates necessary backup directories.
+- Sets rsync options for archiving, verbose output, creating backups, specifying a backup directory, deleting files, and performing a dry run.
+- Executes the rsync command with these options to synchronize files.
+- Logs the output to a file named with the current date.
+
 ### END
