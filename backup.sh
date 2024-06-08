@@ -17,6 +17,7 @@ fi
 # Capture the current date, store it in the format DD-MM-YYY
 current_date=$(date +%d-%m-%Y)
 
+# Remove "--dry-run" to actually create a backup!
 rsync_options="-avb --backup-dir $2/$current_date --delete --dry-run"
 
 $(which rsync) $rsync_options $1 $2/current >> backup_$current_date.log
