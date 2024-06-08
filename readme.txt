@@ -13,7 +13,7 @@ This repository is designed to provide a variety of Bash scripts that can help w
 
 ## Scripts
 
-### 1. create_testuser_and_setup.sh
+### 1. create_testuser_and_setup_environment.sh
 
 This script:
 - Creates a user called 'testuser'.
