@@ -14,6 +14,7 @@ This repository is designed to provide a variety of Bash scripts that can help w
 ## Scripts
 
 ### 1.create_testuser_and_setup_environment.sh
+
 This script:
 - Creates a user called 'testuser'.
 - Sets a password for 'testuser'.
@@ -23,6 +24,7 @@ This script:
 - Installs 'htop' if it is not already installed.
 
 ### 2.backup.sh
+
 This script:
 - Checks if exactly two arguments are provided (backup directory + target directory)
 - Validates that rsync is installed.
@@ -32,6 +34,7 @@ This script:
 - Logs the output to a file named with the current date.
 
 ### 3.bulk_create_users.sh
+
 This script:
 - Loops through each name in a list and creates:
 	- user
@@ -40,6 +43,7 @@ This script:
 	- welcomefile in home directory
 
 ### 4.bulk_delete_users.sh
+
 This script:
 - Loops trough each name in a list and deletes the user and his home directory.
 
