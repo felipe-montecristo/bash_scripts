@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Check if user is ROOT
 if [ $(id -u) -ne 0 ];then
 	echo "Das Skript muss als ROOT ausgeführt werden."
